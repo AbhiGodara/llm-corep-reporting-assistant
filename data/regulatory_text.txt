@@ -1,0 +1,21 @@
+PRA Rulebook – Own Funds (Simplified Extract)
+
+1. Common Equity Tier 1 (CET1) capital includes ordinary share capital,
+retained earnings, and other comprehensive income, after regulatory adjustments.
+
+2. Additional Tier 1 (AT1) capital consists of qualifying perpetual instruments
+that absorb losses on a going concern basis.
+
+3. Tier 2 capital includes subordinated instruments with a minimum original
+maturity of five years.
+
+4. Total Own Funds must equal the sum of CET1, AT1, and Tier 2 capital.
+
+COREP Own Funds Template Instructions (Simplified)
+
+- OF_010: Report CET1 capital.
+- OF_020: Report AT1 capital.
+- OF_030: Report Tier 2 capital.
+- OF_040: Report Total Own Funds.
+
+All reported values must be non-negative and internally consistent.
