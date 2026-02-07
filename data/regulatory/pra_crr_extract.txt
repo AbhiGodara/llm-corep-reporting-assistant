@@ -1,0 +1,35 @@
+CAPITAL REQUIREMENTS REGULATION (CRR) - PRA RULEBOOK EXTRACT
+
+ARTICLE 26 - COMMON EQUITY TIER 1 ITEMS
+1. Common Equity Tier 1 capital shall consist of the sum of the following elements:
+   (a) capital instruments;
+   (b) related share premium accounts;
+   (c) retained earnings;
+   (d) accumulated other comprehensive income;
+   (e) other reserves;
+   (f) funds for general banking risk.
+
+2. Minority interests may be included in Common Equity Tier 1.
+
+ARTICLE 36 - DEDUCTIONS FROM COMMON EQUITY TIER 1
+Institutions shall deduct the following from Common Equity Tier 1 items:
+(a) goodwill;
+(b) other intangible assets;
+(c) deferred tax assets that rely on future profitability.
+
+ARTICLE 51 - ADDITIONAL TIER 1 CAPITAL
+1. Additional Tier 1 capital comprises capital instruments that:
+   (a) are issued and paid-up;
+   (b) are subordinated to creditors;
+   (c) are not redeemable at the initiative of the holder;
+   (d) have no fixed maturity date.
+
+ARTICLE 61 - TIER 2 CAPITAL
+Tier 2 capital comprises capital instruments and subordinated loans that:
+(a) are issued and paid-up;
+(b) have an original maturity of at least five years;
+(c) are not redeemable before maturity without prior supervisory approval.
+
+ARTICLE 72 - TOTAL OWN FUNDS
+Total own funds = Common Equity Tier 1 + Additional Tier 1 + Tier 2 capital.
+All values must be reported in thousands of reporting currency.
