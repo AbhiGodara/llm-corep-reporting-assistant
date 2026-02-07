@@ -4,7 +4,7 @@ langchain-community
 langchain-core
 langchain-huggingface
 langchain-groq
-langchain_text_splitter
+langchain_text_splitters
 faiss-cpu
 sentence-transformers
 pydantic
