@@ -1,56 +1,47 @@
-# LLM-Assisted COREP Own Funds Reporting Assistant
+# 🏛️ COREP Regulatory Reporting Assistant
 
-This project is a prototype of an AI-assisted regulatory reporting tool for UK COREP Own Funds returns. It demonstrates how a Large Language Model (LLM) can assist in interpreting regulatory text and mapping natural-language scenarios to structured COREP template fields.
+An AI-powered tool that helps banks prepare COREP regulatory reports by extracting capital values from natural language and mapping them to COREP templates.
 
----
+## 🚀 Live Demo
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://abhishek-llm-corep-reporting-assistant.streamlit.app/)
 
-## What This Prototype Does
-- Accepts a natural-language reporting scenario and question
-- Retrieves relevant regulatory guidance from a local text source
-- Generates structured COREP Own Funds output using an LLM
-- Populates a human-readable COREP template extract
-- Applies basic validation rules
-- Provides an audit log explaining how each field was derived
+## 📋 Features
+- ✅ Extract CET1, AT1, Tier 2 capital values from natural language
+- ✅ Map to COREP template C 01.00 (Own Funds)
+- ✅ Validate against regulatory rules
+- ✅ Generate audit trail with justifications
+- ✅ Export to JSON and CSV formats
+- ✅ User-friendly web interface
+- ✅ Example scenarios for quick testing
 
----
+## 🛠️ Technology Stack
+- **LLM**: Groq API with llama-3.3-70b-versatile
+- **Framework**: LangChain
+- **Vector Store**: FAISS with sentence-transformers
+- **UI**: Streamlit
+- **Validation**: Pydantic schemas
+- **Data Processing**: Pandas, NumPy
 
-## Scope
-- COREP Template: Own Funds
-- Fields Covered:
-  - CET1 Capital
-  - AT1 Capital
-  - Tier 2 Capital
-  - Total Own Funds
-- Designed as a proof-of-concept, not a production system
-
----
-
-## Regulatory Text
-This prototype uses a simplified and representative extract of PRA Rulebook and COREP Own Funds instructions stored locally for demonstration purposes. In a real-world system, this would be replaced with a maintained regulatory document repository.
-
----
-
-## Design Approach
-- Retrieval-Augmented Generation (RAG) to ground the LLM in regulatory text
-- Structured JSON output to reduce hallucinations
-- Fail-closed behavior: incomplete or ambiguous inputs are rejected
-- Basic consistency validation for reported values
-
----
+## 🏗️ Project Structure
 
 ## How to Run
 
-### Install Dependencies
+### 1. Clone the Repository
+```bash
+git clone https://github.com/AbhiGodara/llm-corep-reporting-assistant.git
+```
+
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Set Environment Variable
+### 3. Set Environment Variable
 ```bash
 GROQ_API_KEY=your_groq_api_key
 ```
 
-### Run the App
+### 4. Run the App
 ```bash
 streamlit run app.py
 ```
