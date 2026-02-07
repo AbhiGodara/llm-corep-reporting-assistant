@@ -1,0 +1,40 @@
+COREP REPORTING INSTRUCTIONS - OWN FUNDS TEMPLATE C 01.00
+
+FIELD SPECIFICATIONS:
+
+CET1 CAPITAL (ROW 010):
+- Report total Common Equity Tier 1 capital after all regulatory adjustments.
+- Include: ordinary shares, retained earnings, other reserves.
+- Exclude: goodwill, intangible assets, deferred tax assets.
+- Code: OF_010
+- Data type: Monetary value (non-negative)
+
+ADDITIONAL TIER 1 CAPITAL (ROW 020):
+- Report qualifying Additional Tier 1 capital instruments.
+- Include: perpetual non-cumulative preference shares.
+- Code: OF_020
+- Data type: Monetary value (non-negative)
+
+TIER 2 CAPITAL (ROW 030):
+- Report Tier 2 capital instruments and subordinated loans.
+- Must have original maturity of at least 5 years.
+- Code: OF_030
+- Data type: Monetary value (non-negative)
+
+TOTAL OWN FUNDS (ROW 040):
+- Automatically calculated as sum of rows 010, 020, and 030.
+- OF_040 = OF_010 + OF_020 + OF_030
+- Code: OF_040
+- Data type: Monetary value (non-negative)
+
+VALIDATION RULES:
+1. All values must be non-negative.
+2. OF_040 must equal OF_010 + OF_020 + OF_030.
+3. CET1 (OF_010) must be greater than or equal to zero.
+4. Values should be reported in thousands (add 000 to displayed values).
+
+EXAMPLE:
+If CET1 = 150,000,000 then report as 150,000.
+If AT1 = 50,000,000 then report as 50,000.
+If Tier 2 = 75,000,000 then report as 75,000.
+Total = 275,000,000 reported as 275,000.
